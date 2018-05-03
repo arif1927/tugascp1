@@ -44,10 +44,10 @@ POSTGIS_TABLE = dict(
 	password='pakisgunung',
 	dbname='kelasgisa',
 
-	table='(select ST_Buffer(ST_Centroid(geom),1) as geom, nama from giscp1) as gisa'
+	table='(select ST_Buffer(ST_Centroid(geom),1) as geom, nama from kelasgisa) as kelasgisa'
 )
 ds = mapnik.PostGIS(**POSTGIS_TABLE)
-layer = mapnik.Layer('indonesia')
+layer = mapnik.Layer('arif2')
 layer.datasource = ds 
 layer.styles.append('arif2')
 m.layers.append(layer)

@@ -17,7 +17,7 @@ POSTGIS_TABLE = dict(
     password='pakisgunung',
     dbname='kelasgisa',
     table = '(select ST_Buffer(ST_Centroid(geom),1)as geom, nama from gisa)as gisa')
-LAYER_NAME = 'giscp1'
+LAYER_NAME = 'gisa'
 
 WGS84 = '+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +no_defs'  # 4326
 # UTM32N = '+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs'  # 32632
