@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arif.pertemuan1011.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="345dp"
+        android:layout_height="31dp"
+        android:text="hari ini"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:text="menampilkan narotama"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:text="menampilkan itats"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:text="clear all"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="31dp"
+        android:text="hasil long"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="338dp"
+        android:layout_height="33dp"
+        android:text="hasil lat"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="32dp"
+        android:text="ARIF ARBIYANTO T.INFORMATIKA KELAS A (04315038)"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+</android.support.constraint.ConstraintLayout>
